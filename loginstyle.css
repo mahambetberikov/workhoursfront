@@ -171,6 +171,8 @@ button{
     display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 10px;
    border: none;
+   background-color:#0F70DA;
+   border-radius: 5px;
+   color: white;
 }
