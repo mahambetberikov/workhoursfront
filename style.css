@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aqua;
+}
+
+ /*container*/
+ .container{
+     height: 500px;
+     width: 500px;
+     padding: 40px 0;
+
+ }
+
+ .block{
+     height: 100%;
+     background-color: #fff;
+     box-shadow: 0 5px 45px rgba(0,0, 0, 0.2);
+     display: block;
+     width: 500px;
+ }
+ 
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 36px;
+    font-weight: bold;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.txtfld-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+}
+
+.login-txt-fld{
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   width: 500px;
+}
+
+.pswrd-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pswrd-txtfld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button{
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+}
+
+.login-btn{
+    
+    vertical-align: middle;
+}
+
+#log-in-btn:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buttons{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.or{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.signwgoogle{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.create{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
