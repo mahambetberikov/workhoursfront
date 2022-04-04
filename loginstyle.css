@@ -25,7 +25,7 @@ body{
 .image-part{
     height: 100vh;
     width: 50%;
-    background-image:url(https://s3-alpha-sig.figma.com/img/0a80/409f/7de4113730e54e4e1ada4bd2c4220906?Expires=1649635200&Signature=fV8Fcr0b3NVS-b~1FZXYjI9TGap2ohVluLzcHyc4-kNYyiWGTx2ui9U7Z9XzJBdO-8HjkwWXzrqAaPj~Y3Y8ZphlInIUZLVI-VcZ0ssDpfHdgF6Doe1UjAKn9n2FTfAh6PlYehQ0mMz36hXMKKDIZxUzJynsQh0NakIyflWauthYgC3NpKrJ11n-S29R6OlZNxZdvY4LSdqZV5El~s1oH1sH1dpbMy8bx7D7E3map~T5H4-4pjuY3aWigWbwwthIeez3k3rpKBIeA14U44v6YSCZaRg-Gex9R7aEFbTwGC5FUq93JwGAwN~2giMq~hHjlisg0wvNC6TglW1qoNO5~A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image:url(background-image-login.png);
 }
  /*container*/
  .container{
