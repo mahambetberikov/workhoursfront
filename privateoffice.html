@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/officestyle.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="firstpart">
+            <h2>Happy Life</h2>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">My defenders</a></li>
+                    <li><a href="#">Flex Status</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">User
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Log out</a></li>
+                <li><a href="#">Leisure time</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <!--Container-->
+    <div class="container">
+        <!--Menu card-->
+        <div class="menu_card">
+            <div class="logo">
+                <img src="images/image-jeremy.png" alt="card_image">
+            </div>
+            <div class="card">
+                <div class="information">
+                    <b>Hello,</b>
+                    <div class="name">Lesbek Rakhat</div>
+                </div>
+                <div class="timer">
+                    <form name=MyForm id="timerform">
+                        <input id="timerinput" name=stopwatch size=10 value="00:00:00.00" disabled>
+                      </form>
+                </div>
+                <div class="position">
+                    <h3 id="position">Designer</h3>
+                </div>
+            </div>
+        </div>
+        <div class="date_picker">
+            <div class="begin">
+                <p class="bgn_title">Beginning date</p>
+                <input type="date" name="date" id="beginning_date">
+            </div>
+            <div class="end">
+                <p class="end_title">End date</p>
+                <input type="date" name="date" id="ending_date">
+            </div>
+            <form action="">
+                <label for="types">Choose type:</label>
+                <select id="type" name="type">
+                    <option value="Card">Card</option>
+                    <option value="Manually">Manually</option>
+                    <option value="Both">Both</option>
+                </select>
+            </form>
+        </div>
+        <div class="showResultsBtn">
+            <button class="showBtn" onclick="GFG_FUN()">Show results</button>
+        </div>
+        <div class="table">
+            <table id="table">
+
+
+            </table>
+        </div>
+    </div>
+    <script  src="/scripts/officescript.js"></script>
+</body>
+
+</html>
